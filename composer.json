@@ -1,0 +1,18 @@
+{
+    "description": "An empty Neos package to save rendered resources",
+    "type": "neos-package",
+    "name": "inoovum/staticresources",
+    "require": {
+        "neos/neos": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Inoovum\\StaticResources\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Inoovum.StaticResources"
+        }
+    }
+}
